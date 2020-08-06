@@ -1,11 +1,13 @@
+ #include <stdio.h>
+	#include <stdlib.h>
 	#include <time.h>
-	int main()
-	{
-	  int i,b=0,heads=0,tails=0;
-	  char a[10];
+		int main()
+		{
+		  int i,b=0,heads=0,tails=0;
+		  char a[10];
 
-	  printf("Tossing a coin...\n");
-	  srand(time(NULL));
+		  printf("Tossing a coin...\n");
+		  srand(time(NULL));
 	  for(i=1;i<4;i++)
 	    {
 	      b=rand()%2+1;
