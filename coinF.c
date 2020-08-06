@@ -1,4 +1,6 @@
-	#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 	int main()
 	{
 	  int i,b=0,heads=0,tails=0;
